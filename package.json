@@ -1,0 +1,8 @@
+{
+  "name": "dreamdex-sdk-precision-feedback",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node repro.mjs" },
+  "dependencies": { "@somnia-chain/markets-sdk": "0.32.1", "viem": "2.57.10" }
+}
+
