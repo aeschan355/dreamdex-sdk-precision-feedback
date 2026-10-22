@@ -1,0 +1,6 @@
+{"input":"0.123456","decimals":6,"raw":"123456","roundtrip":"0.123456","changed":false}
+{"input":"0.1234567","decimals":6,"raw":"123457","roundtrip":"0.123457","changed":true}
+{"input":"0.0000001","decimals":6,"raw":"0","roundtrip":"0","changed":true}
+{"input":"0.9999999","decimals":6,"raw":"1000000","roundtrip":"1","changed":true}
+{"input":"1.2345678901234567890123456","decimals":24,"raw":"1234567890123456789012346","roundtrip":"1.234567890123456789012346","changed":true}
+5 cases passed. Four over-precision strings rounded without throwing.
